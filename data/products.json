@@ -1,0 +1,754 @@
+{
+  "furniture": [
+    {
+      "id": 1,
+      "title": "Blue Wooden Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/1.jpg",
+        "/assets/images/products/kitchen/2.jpg",
+        "/assets/images/products/kitchen/3.jpeg"
+      ],
+      "rate": 4.8,
+      "price": 499.99,
+      "description": "A modern blue wooden kitchen setup",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 2,
+      "title": "Brown Wooden Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/2.jpg",
+        "/assets/images/products/kitchen/4.jpg",
+        "/assets/images/products/kitchen/5.webp"
+      ],
+      "rate": 4.6,
+      "price": 120.50,
+      "description": "A classic brown wooden kitchen",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 3,
+      "title": "White Tables",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/3.jpeg",
+        "/assets/images/products/kitchen/6.jpg",
+        "/assets/images/products/kitchen/7.jpg"
+      ],
+      "rate": 4.7,
+      "price": 350.00,
+      "description": "Elegant white tables for your kitchen",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 4,
+      "title": "Pretty Roses Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/4.jpg",
+        "/assets/images/products/kitchen/8.jpg",
+        "/assets/images/products/kitchen/9.webp"
+      ],
+      "rate": 4.9,
+      "price": 320.00,
+      "description": "A kitchen with a pretty roses theme",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 5,
+      "title": "White and Wooden Frame",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/5.webp",
+        "/assets/images/products/kitchen/10.webp",
+        "/assets/images/products/kitchen/11.jpg"
+      ],
+      "rate": 4.5,
+      "price": 200.99,
+      "description": "White and wooden frame kitchen setup",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 6,
+      "title": "Black Wooden Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/6.jpg",
+        "/assets/images/products/kitchen/12.jpg",
+        "/assets/images/products/kitchen/13.jpg"
+      ],
+      "rate": 4.3,
+      "price": 150.75,
+      "description": "Sleek black wooden kitchen",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 7,
+      "title": "Black and Brown Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/7.jpg",
+        "/assets/images/products/kitchen/14.jpg",
+        "/assets/images/products/dining-room/1.png"
+      ],
+      "rate": 4.4,
+      "price": 180.25,
+      "description": "Modern black and brown kitchen",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 8,
+      "title": "Brown and White Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/8.jpg",
+        "/assets/images/products/dining-room/2.png",
+        "/assets/images/products/dining-room/3.png"
+      ],
+      "rate": 4.2,
+      "price": 110.00,
+      "description": "Cozy brown and white kitchen",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 9,
+      "title": "Wooden Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/9.webp",
+        "/assets/images/products/dining-room/4.jpg",
+        "/assets/images/products/dining-room/5.jpg"
+      ],
+      "rate": 4.6,
+      "price": 90.99,
+      "description": "Simple wooden kitchen design",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 10,
+      "title": "Green Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/10.webp",
+        "/assets/images/products/dining-room/6.webp",
+        "/assets/images/products/dining-room/7.webp"
+      ],
+      "rate": 4.8,
+      "price": 380.00,
+      "description": "Vibrant green kitchen setup",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 11,
+      "title": "Wooden Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/11.jpg",
+        "/assets/images/products/dining-room/8.webp",
+        "/assets/images/products/dining-room/9.jpg"
+      ],
+      "rate": 4.5,
+      "price": 220.00,
+      "description": "Rustic wooden kitchen",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 12,
+      "title": "Yellow Wooden Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/12.jpg",
+        "/assets/images/products/dining-room/10.jpg",
+        "/assets/images/products/dining-room/11.webp"
+      ],
+      "rate": 4.3,
+      "price": 160.50,
+      "description": "Bright yellow wooden kitchen",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 13,
+      "title": "Blue Wooden Kitchen",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/13.jpg",
+        "/assets/images/products/dining-room/12.avif",
+        "/assets/images/products/dining-room/13.jpg"
+      ],
+      "rate": 4.7,
+      "price": 450.00,
+      "description": "Stylish blue wooden kitchen",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 14,
+      "title": "White and Wooden Frame",
+      "category": "Kitchen",
+      "images": [
+        "/assets/images/products/kitchen/14.jpg",
+        "/assets/images/products/dining-room/14.webp",
+        "/assets/images/products/dining-room/15.webp"
+      ],
+      "rate": 4.5,
+      "price": 190.75,
+      "description": "Minimalist white and wooden frame kitchen",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 15,
+      "title": "Kitchen Island",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/1.png",
+        "/assets/images/products/bedroom/1.webp",
+        "/assets/images/products/bedroom/2.jpg"
+      ],
+      "rate": 4.4,
+      "price": 250.00,
+      "description": "Functional kitchen island",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 16,
+      "title": "White Table & Chairs",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/2.png",
+        "/assets/images/products/bedroom/3.jpg",
+        "/assets/images/products/bedroom/4.jpg"
+      ],
+      "rate": 4.6,
+      "price": 135.50,
+      "description": "White dining table with chairs",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 17,
+      "title": "White Table & Chairs",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/3.png",
+        "/assets/images/products/bedroom/5.jpg",
+        "/assets/images/products/bedroom/6.jpg"
+      ],
+      "rate": 4.3,
+      "price": 110.25,
+      "description": "Simple white table and chairs set",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 18,
+      "title": "Wooden Table & Chairs",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/4.jpg",
+        "/assets/images/products/bedroom/7.avif",
+        "/assets/images/products/bedroom/8.jpg"
+      ],
+      "rate": 4.5,
+      "price": 320.00,
+      "description": "Classic wooden dining set",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 19,
+      "title": "Brown Table & Chairs",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/5.jpg",
+        "/assets/images/products/living-room/1.jpeg",
+        "/assets/images/products/living-room/2.jpg"
+      ],
+      "rate": 4.4,
+      "price": 70.00,
+      "description": "Brown dining table and chairs",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 20,
+      "title": "White and Wooden Frame",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/6.webp",
+        "/assets/images/products/living-room/3.png",
+        "/assets/images/products/living-room/4.png"
+      ],
+      "rate": 4.6,
+      "price": 150.00,
+      "description": "White and wooden frame dining set",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 21,
+      "title": "Mint-Green Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/7.webp",
+        "/assets/images/products/living-room/5.png",
+        "/assets/images/products/living-room/6.png"
+      ],
+      "rate": 4.5,
+      "price": 230.00,
+      "description": "Modern mint-green dining table",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 22,
+      "title": "Grey Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/8.webp",
+        "/assets/images/products/living-room/7.jpg",
+        "/assets/images/products/living-room/8.jpg"
+      ],
+      "rate": 4.7,
+      "price": 400.00,
+      "description": "Elegant grey dining table",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 23,
+      "title": "White Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/9.jpg",
+        "/assets/images/products/living-room/9.jpg",
+        "/assets/images/products/living-room/10.jpg"
+      ],
+      "rate": 4.4,
+      "price": 130.00,
+      "description": "Simple white dining table",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 24,
+      "title": "Off-White Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/10.jpg",
+        "/assets/images/products/living-room/11.jpg",
+        "/assets/images/products/living-room/12.jpg"
+      ],
+      "rate": 4.6,
+      "price": 220.00,
+      "description": "Off-white dining table",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 25,
+      "title": "Beige Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/11.webp",
+        "/assets/images/products/living-room/13.jpg",
+        "/assets/images/products/kitchen/1.jpg"
+      ],
+      "rate": 4.8,
+      "price": 180.00,
+      "description": "Stylish beige dining table",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 26,
+      "title": "Perfect Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/12.avif",
+        "/assets/images/products/kitchen/2.jpg",
+        "/assets/images/products/kitchen/3.jpeg"
+      ],
+      "rate": 4.3,
+      "price": 150.00,
+      "description": "Perfect dining table for small spaces",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 27,
+      "title": "Wooden Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/13.jpg",
+        "/assets/images/products/kitchen/4.jpg",
+        "/assets/images/products/kitchen/5.webp"
+      ],
+      "rate": 4.5,
+      "price": 120.00,
+      "description": "Rustic wooden dining table",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 28,
+      "title": "White Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/14.webp",
+        "/assets/images/products/kitchen/6.jpg",
+        "/assets/images/products/kitchen/7.jpg"
+      ],
+      "rate": 4.4,
+      "price": 110.50,
+      "description": "Minimalist white dining table",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 29,
+      "title": "Green Dining Table",
+      "category": "Dining Room",
+      "images": [
+        "/assets/images/products/dining-room/15.webp",
+        "/assets/images/products/kitchen/8.jpg",
+        "/assets/images/products/kitchen/9.webp"
+      ],
+      "rate": 4.7,
+      "price": 350.00,
+      "description": "Vibrant green dining table",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 30,
+      "title": "Shoe Cabinet",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/1.webp",
+        "/assets/images/products/kitchen/10.webp",
+        "/assets/images/products/kitchen/11.jpg"
+      ],
+      "rate": 4.2,
+      "price": 80.00,
+      "description": "Compact shoe cabinet for bedroom",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 31,
+      "title": "Storage Shelf",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/2.jpg",
+        "/assets/images/products/kitchen/12.jpg",
+        "/assets/images/products/kitchen/13.jpg"
+      ],
+      "rate": 4.3,
+      "price": 140.00,
+      "description": "Storage shelf for bedroom organization",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 32,
+      "title": "Mirror Cabinet",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/3.jpg",
+        "/assets/images/products/kitchen/14.jpg",
+        "/assets/images/products/dining-room/1.png"
+      ],
+      "rate": 4.6,
+      "price": 180.00,
+      "description": "Mirror cabinet for bedroom",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 33,
+      "title": "Reclining Sofa",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/4.jpg",
+        "/assets/images/products/dining-room/2.png",
+        "/assets/images/products/dining-room/3.png"
+      ],
+      "rate": 4.7,
+      "price": 450.00,
+      "description": "Comfortable reclining sofa",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 34,
+      "title": "Bar Cart",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/5.jpg",
+        "/assets/images/products/dining-room/4.jpg",
+        "/assets/images/products/dining-room/5.jpg"
+      ],
+      "rate": 4.5,
+      "price": 100.00,
+      "description": "Stylish bar cart for bedroom",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 35,
+      "title": "Filing Cabinet",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/6.jpg",
+        "/assets/images/products/dining-room/6.webp",
+        "/assets/images/products/dining-room/7.webp"
+      ],
+      "rate": 4.4,
+      "price": 120.00,
+      "description": "Filing cabinet for bedroom storage",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 36,
+      "title": "TV Cabinet",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/7.avif",
+        "/assets/images/products/dining-room/8.webp",
+        "/assets/images/products/dining-room/9.jpg"
+      ],
+      "rate": 4.6,
+      "price": 250.00,
+      "description": "TV cabinet for bedroom",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 37,
+      "title": "Day Bed",
+      "category": "Bedroom",
+      "images": [
+        "/assets/images/products/bedroom/8.jpg",
+        "/assets/images/products/dining-room/10.jpg",
+        "/assets/images/products/dining-room/11.webp"
+      ],
+      "rate": 4.3,
+      "price": 350.00,
+      "description": "Comfortable day bed for bedroom",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 38,
+      "title": "Laundry Basket",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/1.jpeg",
+        "/assets/images/products/dining-room/12.avif",
+        "/assets/images/products/dining-room/13.jpg"
+      ],
+      "rate": 4.2,
+      "price": 45.00,
+      "description": "Practical laundry basket",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 39,
+      "title": "Wall Shelf",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/2.jpg",
+        "/assets/images/products/dining-room/14.webp",
+        "/assets/images/products/dining-room/15.webp"
+      ],
+      "rate": 4.5,
+      "price": 85.00,
+      "description": "Decorative wall shelf",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 40,
+      "title": "Bar Table",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/3.png",
+        "/assets/images/products/bedroom/1.webp",
+        "/assets/images/products/bedroom/2.jpg"
+      ],
+      "rate": 4.6,
+      "price": 150.00,
+      "description": "Modern bar table",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 41,
+      "title": "Headboard",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/4.png",
+        "/assets/images/products/bedroom/3.jpg",
+        "/assets/images/products/bedroom/4.jpg"
+      ],
+      "rate": 4.7,
+      "price": 120.00,
+      "description": "Stylish headboard",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 42,
+      "title": "Foldable Dining Table",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/5.png",
+        "/assets/images/products/bedroom/5.jpg",
+        "/assets/images/products/bedroom/6.jpg"
+      ],
+      "rate": 4.5,
+      "price": 175.00,
+      "description": "Foldable dining table for small spaces",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 43,
+      "title": "Wooden Shelf",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/6.png",
+        "/assets/images/products/bedroom/7.avif",
+        "/assets/images/products/bedroom/8.jpg"
+      ],
+      "rate": 4.4,
+      "price": 110.00,
+      "description": "Rustic wooden shelf",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 44,
+      "title": "Coffee Table with Marble Top",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/7.jpg",
+        "/assets/images/products/living-room/1.jpeg",
+        "/assets/images/products/living-room/2.jpg"
+      ],
+      "rate": 4.8,
+      "price": 300.00,
+      "description": "Elegant coffee table with marble top",
+      "isNew": true,
+      "discount": null
+    },
+    {
+      "id": 45,
+      "title": "Side Table",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/8.jpg",
+        "/assets/images/products/living-room/3.png",
+        "/assets/images/products/living-room/4.png"
+      ],
+      "rate": 4.2,
+      "price": 80.00,
+      "description": "Simple side table",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 46,
+      "title": "Recliner Armchair",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/9.jpg",
+        "/assets/images/products/living-room/5.png",
+        "/assets/images/products/living-room/6.png"
+      ],
+      "rate": 4.6,
+      "price": 220.00,
+      "description": "Comfortable recliner armchair",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 47,
+      "title": "Wall Mounted TV Unit",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/10.jpg",
+        "/assets/images/products/living-room/7.jpg",
+        "/assets/images/products/living-room/8.jpg"
+      ],
+      "rate": 4.5,
+      "price": 270.00,
+      "description": "Wall mounted TV unit",
+      "isNew": false,
+      "discount": "30%"
+    },
+    {
+      "id": 48,
+      "title": "Folding Chair Set",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/11.jpg",
+        "/assets/images/products/living-room/9.jpg",
+        "/assets/images/products/living-room/10.jpg"
+      ],
+      "rate": 4.4,
+      "price": 120.00,
+      "description": "Set of folding chairs",
+      "isNew": false,
+      "discount": null
+    },
+    {
+      "id": 49,
+      "title": "Storage Cabinet",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/12.jpg",
+        "/assets/images/products/living-room/11.jpg",
+        "/assets/images/products/living-room/13.jpg"
+      ],
+      "rate": 4.3,
+      "price": 160.00,
+      "description": "Storage cabinet for living room",
+      "isNew": false,
+      "discount": "50%"
+    },
+    {
+      "id": 50,
+      "title": "Double Bed Frame",
+      "category": "Living Room",
+      "images": [
+        "/assets/images/products/living-room/13.jpg",
+        "/assets/images/products/kitchen/1.jpg",
+        "/assets/images/products/kitchen/2.jpg"
+      ],
+      "rate": 4.5,
+      "price": 280.00,
+      "description": "Double bed frame for living room",
+      "isNew": false,
+      "discount": null
+    }
+  ]
+}

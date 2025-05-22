@@ -1,0 +1,134 @@
+:root{
+--background-color:#faf3ea;
+--h-color:black;
+}
+body.dark{
+   --background-color:#18191a;
+   --h-color:white;
+}
+footer {
+    width: 100%;
+    background:  var(--background-color);
+    margin-top: 50px;
+}
+
+footer .shreit{
+    width: 100%;
+    background: black;
+    height: 50px;
+
+}
+.footer-container {
+    color: var(--h-color);
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-top: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-container .footer-logo {
+    width: 33%;
+    text-align: start;
+    color: var(--h-color);
+}
+
+.footer-container .footer-logo div div{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: var(--h-color);
+}
+
+.footer-container .footer-logo h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--h-color);
+}
+.footer-container .footer-logo p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: var(--h-color);
+}
+.footer-container .footer-content {
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--h-color);
+}
+.footer-container .footer-content div {
+    width: 30%;
+}
+.footer-container .footer-content div h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer-container .footer-content div ul {
+    list-style: none;
+    
+}
+.footer-container .footer-content div ul li {
+    margin-bottom: 5px;
+}
+
+.footer-container  a {
+    text-decoration: none;
+    color: var(--h-color);
+    font-size: 15px;
+    font-weight: 400;
+}
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: var(--h-color);
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for screens smaller than 768px (Tablets & Phones) */
+    .footer-container {
+      flex-direction: column;
+    }
+    .footer-container .footer-logo {
+        width: 100%;
+        text-align: start;
+    }
+    .footer-container .footer-logo h1 {
+      
+        text-align: center;
+    }
+    .footer-container .footer-logo p {
+        
+        text-align: center;
+    }
+    .footer-container .footer-logo a{
+        display: none;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+
+    .footer-container .footer-content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 50px;
+    }
+    .footer-container .footer-content div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  
+    
+  }

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <script src="../js/cart.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="../js/navbar.js" defer></script>
+    <script src="../js/logaut.js" defer></script>
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <a href=""><img src="img/ChatGPT Image 1 أبريل 2025، 01_17_13 م.png" alt=""></a>
+                <h2>Furniture</h2>
+            </div>    
+        
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        
+            <ul class="nav-links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="../html/product.html">Shop</a></li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+        
+            <div class="icons">
+                <a href="../index.html" id="logoutBtn"><i class='bx bxs-user'></i></a>
+                <!-- <a href="#"><i class='bx bx-search'></i></a> -->
+                <a href="./cart.html"><i class='bx bxs-cart'></i></a>
+                <div class="dark-light">
+                  <i class="bi bi-moon" id="moon"></i>
+                  <i class="bi bi-brightness-high" id="sun"></i>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="continer">
+            <div class="cart-hero">
+            
+                <div class="cart-bath">
+                    <div class="logo">
+                        <a href="./home.html"><img src="../images/20220403_135509-removebg-preview (1) 1.svg" alt=""></a>
+
+                    </div>
+                    <h3>Cart</h3>
+                    <div>
+                        <p><a href="./home.html">Home</a> > Cart</p>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="cart-container">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th><h6>Product</h6> </th>
+                            <th><h6>Price</h6></th>
+                            <th><h6>Quantity</h6></th>
+                            <th><h6>Subtotal</h6></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-body">
+                        
+                       
+                        
+                    </tbody>
+                </table>
+                <div class="cart-totals">
+                    <h3>Cart Totals</h3>
+                    <p>Subtotal: <span id="subtotal"></span> EGP</p>
+                    <p>Total: <span id="total"></span> EGP</p>
+                    <button class="checkout">Check Out</button>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+
+
+
+
+    <footer>
+        <div class="shreit">
+            
+        </div>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h1>Furniture</h1>
+                <p>We're available Monday - Friday 9 am - 5 pm</p>
+                <div class="social-media">
+                    <div><svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.4531 16.7126L18.4845 14.4862L18.4708 14.4798C18.2128 14.3695 17.9314 14.3252 17.6521 14.351C17.3727 14.3768 17.1042 14.4718 16.8708 14.6275C16.8433 14.6456 16.8169 14.6654 16.7917 14.6866L14.2246 16.875C12.5983 16.0851 10.9192 14.4187 10.1292 12.8134L12.3209 10.2073C12.342 10.1809 12.362 10.1546 12.381 10.1261C12.5333 9.89332 12.6257 9.6265 12.65 9.34939C12.6743 9.07227 12.6297 8.79344 12.5202 8.53773V8.52507L10.2874 3.548C10.1427 3.21394 9.89374 2.93566 9.57782 2.7547C9.26191 2.57374 8.89593 2.49981 8.53454 2.54394C7.10541 2.73199 5.7936 3.43385 4.84412 4.51841C3.89464 5.60298 3.37243 6.99608 3.37501 8.43753C3.37501 16.8117 10.1883 23.625 18.5625 23.625C20.004 23.6276 21.3971 23.1054 22.4816 22.1559C23.5662 21.2064 24.268 19.8946 24.4561 18.4655C24.5003 18.1042 24.4265 17.7383 24.2458 17.4224C24.065 17.1065 23.787 16.8575 23.4531 16.7126ZM18.5625 21.9375C14.9833 21.9336 11.5518 20.51 9.02088 17.9792C6.48999 15.4483 5.06642 12.0168 5.06251 8.43753C5.05854 7.40762 5.42959 6.41147 6.10637 5.63513C6.78315 4.85878 7.71938 4.35533 8.74021 4.21878C8.73979 4.22299 8.73979 4.22723 8.74021 4.23144L10.955 9.18847L8.77501 11.7978C8.75288 11.8232 8.73278 11.8504 8.71489 11.879C8.55618 12.1225 8.46307 12.4029 8.44459 12.693C8.42611 12.9832 8.48289 13.2731 8.60942 13.5348C9.56497 15.4892 11.5341 17.4435 13.5095 18.398C13.7731 18.5233 14.0648 18.5782 14.3559 18.5571C14.6471 18.536 14.9278 18.4398 15.1706 18.2778C15.1977 18.2595 15.2238 18.2398 15.2487 18.2187L17.8126 16.0313L22.7697 18.2514H22.7813C22.6464 19.2737 22.1437 20.2118 21.3672 20.8902C20.5907 21.5687 19.5936 21.941 18.5625 21.9375Z" fill="#1F3640"/>
+                        </svg>
+                         <a href="">+(62)834889120</a>      
+                    </div>
+                    <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6ZM20 6L12 11L4 6H20ZM20 18H4V8L12 13L20 8V18Z" fill="#1F3640"/>
+                        </svg>
+                        
+                         <a href="">thewooden@gmail.com</a>      
+                    </div>
+                    <div><svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.5 7.3125C14.2459 7.3125 14.9613 7.60882 15.4887 8.13626C16.0162 8.66371 16.3125 9.37908 16.3125 10.125C16.3125 10.4943 16.2398 10.8601 16.0984 11.2013C15.9571 11.5425 15.7499 11.8526 15.4887 12.1137C15.2276 12.3749 14.9175 12.5821 14.5763 12.7234C14.2351 12.8648 13.8693 12.9375 13.5 12.9375C12.7541 12.9375 12.0387 12.6412 11.5113 12.1137C10.9838 11.5863 10.6875 10.8709 10.6875 10.125C10.6875 9.37908 10.9838 8.66371 11.5113 8.13626C12.0387 7.60882 12.7541 7.3125 13.5 7.3125ZM13.5 2.25C15.5886 2.25 17.5916 3.07969 19.0685 4.55653C20.5453 6.03338 21.375 8.03642 21.375 10.125C21.375 16.0312 13.5 24.75 13.5 24.75C13.5 24.75 5.625 16.0312 5.625 10.125C5.625 8.03642 6.45469 6.03338 7.93153 4.55653C9.40838 3.07969 11.4114 2.25 13.5 2.25ZM13.5 4.5C12.0082 4.5 10.5774 5.09263 9.52252 6.14752C8.46763 7.20242 7.875 8.63316 7.875 10.125C7.875 11.25 7.875 13.5 13.5 21.0487C19.125 13.5 19.125 11.25 19.125 10.125C19.125 8.63316 18.5324 7.20242 17.4775 6.14752C16.4226 5.09263 14.9918 4.5 13.5 4.5Z" fill="#1F3640"/>
+                        </svg>
+                        
+                         <a href="">kemang No 23, South Jakarta, Indonesia</a>      
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-content">
+                <div>
+                    <h3> About Us</h3>
+                    <ul>
+                        <li><a href="">Who We Are</a></li>
+                        <li><a href="">Press Release</a></li>
+                        <li><a href="">Event</a></li>
+                        <li><a href="">Career</a></li>
+                        <li><a href="">The Wooden Group</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Store Location</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="">Online Catalog</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Give Us Feedback</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Inspirations Blog</h3>
+                    <ul>
+                        <li><a href="">News & update</a></li>
+                        <li><a href="">Tips & Tricks</a></li>
+                        <li><a href="">Promo Deals</a></li>
+                        <li><a href="">Lifestyle</a></li>
+                    </ul>
+                </div>
+
+                
+
+
+            </div>
+            
+            
+        </div>
+
+        <p class="copyright">Copyright &copy; 2025 The Wooden Group</p>
+        
+    </footer>
+
+
+    <script src="../js/description.js"></script>
+    
+</body>
+</html>

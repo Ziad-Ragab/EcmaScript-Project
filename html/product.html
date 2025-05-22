@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page - Furniro</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <script src="../js/navbar.js" defer></script>
+    <script src="../js/logaut.js" defer></script>
+
+</head>
+<body>
+
+
+    <nav class="nav">
+        <div class="logo">
+            <a href=""><img src="img/ChatGPT Image 1 أبريل 2025، 01_17_13 م.png" alt=""></a>
+            <h2>Furniture</h2>
+        </div>    
+    
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    
+        <ul class="nav-links">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="../html/product.html">Shop</a></li>
+            <li><a href="./about.html">About Us</a></li>
+        </ul>
+    
+        <div class="icons">
+            <a href="../index.html" id="logoutBtn"><i class='bx bxs-user'></i></a>
+            <!-- <a href="#"><i class='bx bx-search'></i></a> -->
+            <a href="./cart.html"><i class='bx bxs-cart'></i></a>
+            <div class="dark-light">
+              <i class="bi bi-moon" id="moon"></i>
+              <i class="bi bi-brightness-high" id="sun"></i>
+            </div>
+        </div>
+      </nav>
+    <!-- Shop Section -->
+    <section class="shop-section">
+        <section class="header-section" style="background-image: url('../assets/images/products/header-section-background.png');">
+            <div class="header-content">
+                <h1>Shop</h1>
+                <div class="breadcrumb">
+                    <a href="./home.html">Home</a> > <span>Shop</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="filter-section">
+            <div class="filter-controls">
+                <div class="results-count">Showing 1-16 of 32 results</div>
+
+                <div class="filter-group">
+                    <span>Search</span>
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                </div>
+                <div class="filter-group">
+                    <span>Show</span>
+                    <select class="show-select">
+                        <option value="16">16</option>
+                        <option value="32">32</option>
+                        <option value="64">64</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <span>Sort by</span>
+                    <select class="sort-select">
+                        <option value="default">Default</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+        </div>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="feature">
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+                        <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935M3.504 1q.01.775.056 1.469c.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.5.5 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667q.045-.694.056-1.469z"/>
+                    </svg>
+                </i>
+                <p><b><span>High Quality</span></b><br>crafted from top materials</p>
+            </div>
+            <div class="feature">
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
+                    </svg>
+                </i>
+                <p><b><span>Warranty Protection</span></b><br>Over 2 years</p>
+            </div>
+            <div class="feature">
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                    </svg>
+                </i>
+                <p><b><span>Free Shipping</span></b><br>Order over 150 $</p>
+            </div>
+            <div class="feature">
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                        <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                    </svg>
+                </i>
+                <p><b><span>24/7 Support</span></b><br>Dedicated support</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="shreit">
+                
+            </div>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h1>Furniture</h1>
+                    <p>We're available Monday - Friday 9 am - 5 pm</p>
+                    <div class="social-media">
+                        <div><svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.4531 16.7126L18.4845 14.4862L18.4708 14.4798C18.2128 14.3695 17.9314 14.3252 17.6521 14.351C17.3727 14.3768 17.1042 14.4718 16.8708 14.6275C16.8433 14.6456 16.8169 14.6654 16.7917 14.6866L14.2246 16.875C12.5983 16.0851 10.9192 14.4187 10.1292 12.8134L12.3209 10.2073C12.342 10.1809 12.362 10.1546 12.381 10.1261C12.5333 9.89332 12.6257 9.6265 12.65 9.34939C12.6743 9.07227 12.6297 8.79344 12.5202 8.53773V8.52507L10.2874 3.548C10.1427 3.21394 9.89374 2.93566 9.57782 2.7547C9.26191 2.57374 8.89593 2.49981 8.53454 2.54394C7.10541 2.73199 5.7936 3.43385 4.84412 4.51841C3.89464 5.60298 3.37243 6.99608 3.37501 8.43753C3.37501 16.8117 10.1883 23.625 18.5625 23.625C20.004 23.6276 21.3971 23.1054 22.4816 22.1559C23.5662 21.2064 24.268 19.8946 24.4561 18.4655C24.5003 18.1042 24.4265 17.7383 24.2458 17.4224C24.065 17.1065 23.787 16.8575 23.4531 16.7126ZM18.5625 21.9375C14.9833 21.9336 11.5518 20.51 9.02088 17.9792C6.48999 15.4483 5.06642 12.0168 5.06251 8.43753C5.05854 7.40762 5.42959 6.41147 6.10637 5.63513C6.78315 4.85878 7.71938 4.35533 8.74021 4.21878C8.73979 4.22299 8.73979 4.22723 8.74021 4.23144L10.955 9.18847L8.77501 11.7978C8.75288 11.8232 8.73278 11.8504 8.71489 11.879C8.55618 12.1225 8.46307 12.4029 8.44459 12.693C8.42611 12.9832 8.48289 13.2731 8.60942 13.5348C9.56497 15.4892 11.5341 17.4435 13.5095 18.398C13.7731 18.5233 14.0648 18.5782 14.3559 18.5571C14.6471 18.536 14.9278 18.4398 15.1706 18.2778C15.1977 18.2595 15.2238 18.2398 15.2487 18.2187L17.8126 16.0313L22.7697 18.2514H22.7813C22.6464 19.2737 22.1437 20.2118 21.3672 20.8902C20.5907 21.5687 19.5936 21.941 18.5625 21.9375Z" fill="#1F3640"/>
+                            </svg>
+                             <a href="">+(62)834889120</a>      
+                        </div>
+                        <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6ZM20 6L12 11L4 6H20ZM20 18H4V8L12 13L20 8V18Z" fill="#1F3640"/>
+                            </svg>
+                            
+                             <a href="">Furniture@gmail.com</a>      
+                        </div>
+                        <div><svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 7.3125C14.2459 7.3125 14.9613 7.60882 15.4887 8.13626C16.0162 8.66371 16.3125 9.37908 16.3125 10.125C16.3125 10.4943 16.2398 10.8601 16.0984 11.2013C15.9571 11.5425 15.7499 11.8526 15.4887 12.1137C15.2276 12.3749 14.9175 12.5821 14.5763 12.7234C14.2351 12.8648 13.8693 12.9375 13.5 12.9375C12.7541 12.9375 12.0387 12.6412 11.5113 12.1137C10.9838 11.5863 10.6875 10.8709 10.6875 10.125C10.6875 9.37908 10.9838 8.66371 11.5113 8.13626C12.0387 7.60882 12.7541 7.3125 13.5 7.3125ZM13.5 2.25C15.5886 2.25 17.5916 3.07969 19.0685 4.55653C20.5453 6.03338 21.375 8.03642 21.375 10.125C21.375 16.0312 13.5 24.75 13.5 24.75C13.5 24.75 5.625 16.0312 5.625 10.125C5.625 8.03642 6.45469 6.03338 7.93153 4.55653C9.40838 3.07969 11.4114 2.25 13.5 2.25ZM13.5 4.5C12.0082 4.5 10.5774 5.09263 9.52252 6.14752C8.46763 7.20242 7.875 8.63316 7.875 10.125C7.875 11.25 7.875 13.5 13.5 21.0487C19.125 13.5 19.125 11.25 19.125 10.125C19.125 8.63316 18.5324 7.20242 17.4775 6.14752C16.4226 5.09263 14.9918 4.5 13.5 4.5Z" fill="#1F3640"/>
+                            </svg>
+                            
+                             <a href="">kemang No 23, South Jakarta, Indonesia</a>      
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="footer-content">
+                    <div>
+                        <h3> About Us</h3>
+                        <ul>
+                            <li><a href="">Who We Are</a></li>
+                            <li><a href="">Press Release</a></li>
+                            <li><a href="">Event</a></li>
+                            <li><a href="">Career</a></li>
+                            <li><a href="">The Wooden Group</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Store Location</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Customer Care</h3>
+                        <ul>
+                            <li><a href="">Online Catalog</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">Give Us Feedback</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Inspirations Blog</h3>
+                        <ul>
+                            <li><a href="">News & update</a></li>
+                            <li><a href="">Tips & Tricks</a></li>
+                            <li><a href="">Promo Deals</a></li>
+                            <li><a href="">Lifestyle</a></li>
+                        </ul>
+                    </div>
+    
+                    
+    
+    
+                </div>
+                
+                
+            </div>
+    
+            <p class="copyright">Copyright &copy; 2025 The Wooden Group</p>
+            
+        </footer>
+        <!-- Quick View Modal -->
+        <div id="quickViewModal" class="modal">
+            <div class="modal-content product">
+                <div class="image-gallery">
+                    <img id="modalImage" src="" alt="Product Image">
+                    <div class="controls">
+                        <span class="btn active"></span>
+                        <span class="btn"></span>
+                        <span class="btn"></span>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <div class="details">
+                        <h2 id="modalName"></h2>
+                        <h3 id="modalPrice"></h3>
+                        <p id="modalDescription"></p>
+                    </div>
+                    <div class="sizes">
+                        <form class="form">
+                            <div class="select-size">
+                                <h3>Size:</h3>
+                                <label for="sm"><input type="radio" name="size" id="sm"><span>S</span></label>
+                                <label for="m"><input type="radio" name="size" id="m"><span>M</span></label>
+                                <label for="lg"><input type="radio" name="size" id="lg"><span>L</span></label>
+                                <label for="xl"><input type="radio" name="size" id="xl"><span>XL</span></label>
+                                <label for="xxl"><input type="radio" name="size" id="xxl"><span>XXL</span></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="colors">
+                        <form class="form">
+                            <div class="select-color">
+                                <h3>Color:</h3>
+                                <label for="red"><input type="radio" name="color" id="red"><span class="color-1"></span></label>
+                                <label for="green"><input type="radio" name="color" id="green"><span class="color-2"></span></label>
+                                <label for="blue"><input type="radio" name="color" id="blue"><span class="color-3"></span></label>
+                                <label for="yellow"><input type="radio" name="color" id="yellow"><span class="color-4"></span></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="quantity">
+                        <div class="select-quantity">
+                            <h3>Quantity:</h3>
+                            <input type="number" name="quantity" value="1" min="1">
+                        </div>
+                    </div>
+                    <div class="sub-btn">
+                        <a class="btn btn-solid pulse-animation" style="width: 100%;">Add to Cart</a>
+                    </div>
+                    <span class="close-modal">×</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/products.js"></script>
+</body>
+</html>
